@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Cookie-Compliance-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cookie-Compliance-Platform?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cookie-Compliance-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cookie-Compliance-Platform?style=flat-square&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cookie-Compliance-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Cookie-Compliance-Platform?style=flat-square&color=blue" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
@@ -56,30 +56,30 @@ This repository maintains a comprehensive, community-curated list of **SaaS plat
 
 ## 💻 Open-Source GitHub Repositories
 
-*Sorted by GitHub Star Count (Descending)*
+*Sorted by GitHub Stars_Count (Descending)*
 
-- **[orestbida/cookieconsent](https://github.com/orestbida/cookieconsent)** [![GitHub stars](https://img.shields.io/github/stars/orestbida/cookieconsent?style=social)](https://github.com/orestbida/cookieconsent/stargazers) 🌟
+- **[orestbida/cookieconsent](https://github.com/orestbida/cookieconsent)** [![GitHub_Stars](https://img.shields.io/github/stars/orestbida/cookieconsent?style=social)](https://github.com/orestbida/cookieconsent/stargazers) 🌟
   - **Description**: Lightweight, cross-browser vanilla JavaScript cookie consent plugin. Highly customizable, zero external dependencies, multi-language UI, automatic script blocking, and GDPR/CCPA compliance ready.
 
-- **[c15t/c15t](https://github.com/c15t/c15t)** [![GitHub stars](https://img.shields.io/github/stars/c15t/c15t?style=social)](https://github.com/c15t/c15t/stargazers) 🌟
+- **[c15t/c15t](https://github.com/c15t/c15t)** [![GitHub_Stars](https://img.shields.io/github/stars/c15t/c15t?style=social)](https://github.com/c15t/c15t/stargazers) 🌟
   - **Description**: Developer-first open-source cookie banner component library designed for React, Next.js, and modern Jamstack web applications with complete style customization.
 
-- **[kirotus/klaro](https://github.com/kirotus/klaro)** [![GitHub stars](https://img.shields.io/github/stars/kirotus/klaro?style=social)](https://github.com/kirotus/klaro/stargazers) 🌟
+- **[kirotus/klaro](https://github.com/kirotus/klaro)** [![GitHub_Stars](https://img.shields.io/github/stars/kirotus/klaro?style=social)](https://github.com/kirotus/klaro/stargazers) 🌟
   - **Description**: Highly established open-source consent manager. Features zero vendor lock-in, client-side execution, REST API integration, complete audit log traceability, and multi-language UI rendering.
 
-- **[apertureless/vue-cookie-law](https://github.com/apertureless/vue-cookie-law)** [![GitHub stars](https://img.shields.io/github/stars/apertureless/vue-cookie-law?style=social)](https://github.com/apertureless/vue-cookie-law/stargazers) 🌟
+- **[apertureless/vue-cookie-law](https://github.com/apertureless/vue-cookie-law)** [![GitHub_Stars](https://img.shields.io/github/stars/apertureless/vue-cookie-law?style=social)](https://github.com/apertureless/vue-cookie-law/stargazers) 🌟
   - **Description**: Vue.js notification banner component for cookie law compliance with theme support, custom positions, and slide/fade animations.
 
-- **[consentos/consentos](https://github.com/consentos/consentos)** [![GitHub stars](https://img.shields.io/github/stars/consentos/consentos?style=social)](https://github.com/consentos/consentos/stargazers) 🌟
+- **[consentos/consentos](https://github.com/consentos/consentos)** [![GitHub_Stars](https://img.shields.io/github/stars/consentos/consentos?style=social)](https://github.com/consentos/consentos/stargazers) 🌟
   - **Description**: Comprehensive source-available self-hosted CMP alternative to OneTrust and Cookiebot. Built with Playwright-driven cookie scanning, dark pattern detection, script auto-blocking, IAB TCF v2.3, and multi-tenant Docker deployment.
 
-- **[boscop-fr/orejime](https://github.com/boscop-fr/orejime)** [![GitHub stars](https://img.shields.io/github/stars/boscop-fr/orejime?style=social)](https://github.com/boscop-fr/orejime/stargazers) 🌟
+- **[boscop-fr/orejime](https://github.com/boscop-fr/orejime)** [![GitHub_Stars](https://img.shields.io/github/stars/boscop-fr/orejime?style=social)](https://github.com/boscop-fr/orejime/stargazers) 🌟
   - **Description**: Accessible, easy-to-use GDPR cookie consent manager built with accessibility standards (a11y) in mind for inclusive web user interfaces.
 
-- **[porscheofficial/cookie-consent-banner](https://github.com/porscheofficial/cookie-consent-banner)** [![GitHub stars](https://img.shields.io/github/stars/porscheofficial/cookie-consent-banner?style=social)](https://github.com/porscheofficial/cookie-consent-banner/stargazers) 🌟
+- **[porscheofficial/cookie-consent-banner](https://github.com/porscheofficial/cookie-consent-banner)** [![GitHub_Stars](https://img.shields.io/github/stars/porscheofficial/cookie-consent-banner?style=social)](https://github.com/porscheofficial/cookie-consent-banner/stargazers) 🌟
   - **Description**: Lightweight and flexible Cookie Consent Banner implementation open-sourced by Porsche Engineering.
 
-- **[chiiya/haven](https://github.com/chiiya/haven)** [![GitHub stars](https://img.shields.io/github/stars/chiiya/haven?style=social)](https://github.com/chiiya/haven/stargazers) 🌟
+- **[chiiya/haven](https://github.com/chiiya/haven)** [![GitHub_Stars](https://img.shields.io/github/stars/chiiya/haven?style=social)](https://github.com/chiiya/haven/stargazers) 🌟
   - **Description**: Modern TypeScript-based, GDPR-ready cookie consent manager for custom web application integrations.
 
 ---
@@ -90,7 +90,7 @@ Contributions are welcome and greatly appreciated! Follow these steps to submit 
 
 1. **Fork** this repository.
 2. Add your entry in `README.md` under the appropriate section following the existing table or list layout.
-3. Provide accurate details: Product Name, official URL, pricing/free tier specifics, or open-source GitHub star badge.
+3. Provide accurate details: Product Name, official URL, pricing/free tier specifics, or open-source GitHub Stars_Badge.
 4. Submit a **Pull Request** with a brief summary of changes.
 
 ---
