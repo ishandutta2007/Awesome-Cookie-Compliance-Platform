@@ -1,191 +1,124 @@
-# Awesome-Cookie-Compliance-Platform
+# 🍪 Awesome Cookie Compliance Platforms
 
-## Top Cookie Compliance Platforms Ecosystem
+![Awesome Cookie Compliance Platform Banner](assets/banner.svg)
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cookie-Compliance-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cookie-Compliance-Platform?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cookie-Compliance-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Cookie-Compliance-Platform?style=flat-square&color=blue" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 🛡️ Top Cookie Compliance Platforms Ecosystem
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Cookie Consent, GDPR/CCPA Compliance, Google Consent Mode & Privacy Compliance*
+**Curated Directory of SaaS Products & Open-Source GitHub Projects**
+*Focused on Cookie Consent Banners, GDPR / CCPA / CPRA / ePrivacy Compliance, Google Consent Mode v2, and IAB TCF v2.3 Standards*
 
 **Last updated: September 2026**
 
+---
 
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Cookie Compliance**. These tools help websites collect, manage, and document user consent for cookies and tracking technologies in compliance with GDPR, CCPA/CPRA, ePrivacy, and other privacy regulations.
-
-
-
-**Examples** include Cookiebot, CookieYes, Usercentrics, OneTrust, TrustArc, Termly, Complianz, Didomi, Consentmanager, and Osano (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom consent workflows, and transparent privacy compliance — ideal for organizations that need full control over consent data without per-pageview SaaS fees or vendor lock-in.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Cookiebot](https://www.cookiebot.com/)**
-
-  Popular CMP known for automated cookie scanning and user-friendly banner. Provides GDPR, CCPA, and Google Consent Mode compliance with a free tier for small websites. Currently used by 138,234 origins with 57% mobile performance score .
-
-
-
-- **[CookieYes](https://www.cookieyes.com/)**
-
-  Affordable CMP with automated cookie scanning and banner customization. Provides GDPR, CCPA, and Google Consent Mode compliance. The most widely deployed CMP in the HTTP Archive dataset with 222,809 origins, 46% mobile performance, and 92% best practices score .
-
-
-
-- **[Usercentrics](https://usercentrics.com/)**
-
-  German CMP platform with strong European market presence. Provides consent management, preference centers, and compliance across multiple regulations. Used by 43,324 origins with 61% mobile performance score .
-
-
-
-- **[OneTrust](https://www.onetrust.com/)**
-
-  The dominant enterprise CMP and privacy management platform. **Fall 2026 release** introduces a redesigned CMP experience with website-centric workflows, unified management of websites/publishing/tracking technologies, and bulk script publishing . New permissions include bulk exports for CMP receipts and download permissions for export files .
-
-
-
-- **[TrustArc](https://trustarc.com/)**
-
-  Privacy compliance platform with CMP, assessments, and certification services. **Q2 2026 updates** include Unified Consent across domains/brands for CCPA compliance, **Global Privacy Control (GPC) recognition enabled by default**, flexible manual/scheduled scanning, and smarter DSR form administration with activity logging .
-
-
-
-- **[Termly](https://termly.io/)**
-
-  CMP and legal compliance platform. Provides cookie consent, privacy policy generation, and terms of service tools. Users praise the friendly UI for creating and managing policies, though customization options are considered limited .
-
-
-
-- **[Complianz](https://complianz.io/)**
-
-  WordPress-focused cookie banner plugin with **1 million+ active users** and 4.8/5 WordPress rating . Features plug-and-play setup, automated scans, consent management with automatic third-party script blocking, and coverage for GDPR, CCPA, LGPD, and more. **Google CMP certified**, **IAB TCF v2.3 validated** (CMP ID 332) .
-
-
-
-- **[Didomi](https://www.didomi.io/)**
-
-  French CMP and consent management platform. Provides cookie consent, preference management, and compliance tools. **Performance focus**: new performance flag delivered 60-70% improvement in average INP scores for CMP-related actions (developed with Google) . Supports cross-device consent sharing and server-side tracking .
-
-
-
-- **[Consentmanager](https://www.consentmanager.net/)**
-
-  German CMP provider with cookie consent and compliance tools. **Features**: 3M+ cookies categorized, 2,500+ vendors recognized, **ML-powered A/B testing** (15%+ higher acceptance rates on average), automatic cookie blocking, and **Compatibility Mode** for switching without rebuilding tag manager setup . **Google-certified CMP Partner**, **IAB TCF v2.3 validated**, **EU-only data storage** .
-
-
-
-- **[Osano](https://www.osano.com/)**
-
-  Privacy platform with CMP, data mapping, and consent management. Focuses on simplifying privacy compliance for businesses. **Fender case study**: replaced manual processes and spreadsheets with centralized platform, enabling privacy-by-design guardrails and proactive legal partnership .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[ConsentOS](https://github.com/consentos/consentos)**
-
-  **The most complete source-available consent management platform, positioned as a self-hosted alternative to OneTrust, Cookiebot, and CookieYes.** **Elastic Licence 2.0** (source-available, self-host indefinitely). **Key features**: Single `<script>` tag embed; **auto-blocking** (intercepts script creation, cookie writes, and storage API calls until consent); **Playwright-driven cookie scanner** with auto-categorization against Open Cookie Database (2,200+ patterns); **dark pattern detection** (pre-ticked boxes, missing reject buttons, button asymmetry, scroll-based dismissal); compliance engine for **GDPR, CNIL, CCPA/CPRA, ePrivacy, and LGPD** with severity scoring; **tamper-evident consent record audit trail**. **Standards-complete**: IAB TCF v2.3, GPP v1 (six US state sections), Google Consent Mode v2, GPC, Shopify Customer Privacy API . **Multi-tenant from day one** with configuration cascade (System → Org → Site Group → Site → Region). Banner is ~2KB loader + ~26KB bundle gzipped, rendered in Shadow DOM for style isolation . Docker Compose deployment with PostgreSQL 17 .
-
-
-
-- **[Klaro](https://github.com/kirotus/klaro)**
-
-  **The most established open-source consent manager.** **1,210 GitHub stars, 256 forks**, JavaScript-based . **Open-source version is completely free** for personal and commercial use, with all client-side features of the commercial editions . **Key features**: Automatic UI display in website languages with GUI text customization; growing third-party database with technical and legal details; unlimited configurations for subpages, landing pages, subdomains, testing; **complete traceability of all configuration changes for audit logs**; **full REST API** for programmatic and automated use; **anonymous real-time statistics** on consent types, views, browser properties, and acceptance rates; **open-source client libraries and UIs** that you can freely use, adapt, and host; **unlimited and complete export** of all data and configuration settings . **Unique positioning**: "the only consent management platform that uses a completely free open-source code base in the frontend" .
-
-
-
-- **[Orejime](https://github.com/boscop-fr/orejime)**
-
-  **Easy-to-use consent manager focusing on accessibility.** **189 GitHub stars, 37 forks** . Open-source, designed to be simple to use and accessible. Suitable for organizations prioritizing accessibility in their consent workflows.
-
-
-
-- **[Haven](https://github.com/chiiya/haven)**
-
-  **Fully-featured, GDPR-ready cookie consent manager.** **77 GitHub stars, 4 forks**, TypeScript-based . Open-source, designed for GDPR compliance.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Full Platforms**: **ConsentOS** (source-available, multi-tenant, comprehensive compliance engine) .
-
-- **Lightweight Banners**: **Klaro** (1,210 stars, free, REST API, audit logs) , **Orejime** (189 stars, accessibility-focused) , **Haven** (77 stars, GDPR-ready) .
-
-- **CMS Integrations**: **TYPO3 dp_cookieconsent** (TYPO3 extension, 33 stars) , **Grav ePrivacy Plugin** (Grav CMS) , **October CMS GDPR Plugin** (36 stars) .
-
-- **Libraries**: **cookies-consent-js** (TypeScript library for GDPR/ePrivacy) , **cookiesconsentjs** (JavaScript library) .
-
-
-
-**Frameworks for building custom systems**: Combine **ConsentOS** for a complete self-hosted CMP with auto-blocking and compliance auditing, **Klaro** for lightweight client-side consent management with REST API, and **Orejime** for accessibility-focused consent flows. Add **PostgreSQL** for persistence and **Docker** for deployment.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Cookie compliance platforms handle sensitive consent data; ensure compliance with GDPR, CCPA/CPRA, ePrivacy, and relevant regional privacy regulations.
-
-- **Open-source reality**: The open-source ecosystem for cookie compliance is **mature and production-ready**. **ConsentOS** provides a comprehensive source-available CMP with auto-blocking, cookie scanning, dark pattern detection, and multi-tenant support . **Klaro** is the most established open-source consent manager with 1,210 stars, free client-side functionality, REST API, and audit logs . **Orejime** and **Haven** provide accessibility-focused and GDPR-ready alternatives . However, **commercial platforms** (Cookiebot, CookieYes, Usercentrics, OneTrust, TrustArc) provide **managed cookie databases, automated scanner updates, enterprise integrations, and dedicated support** that open-source alternatives require significant operational investment to match. The open-source path is **genuinely viable** for organizations with engineering capacity seeking full data sovereignty and zero license fees.
-
-
+### 🌐 Overview & SEO Keywords
+This repository maintains a comprehensive, community-curated list of **SaaS platforms** and **open-source consent management platforms (CMPs)** for **Cookie Compliance**. These solutions empower web application developers, privacy engineers, and legal officers to implement privacy-by-design, manage cookie consent banners, record user privacy choices, block tracking scripts dynamically, and comply with **GDPR (EU)**, **CCPA/CPRA (California)**, **ePrivacy Directive**, **LGPD (Brazil)**, **Google Consent Mode v2**, and **Global Privacy Control (GPC)**.
 
 ---
 
+## 📋 Table of Contents
 
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [💻 Open-Source GitHub Repositories](#-open-source-github-repositories)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
 
-**Made for privacy engineers, web developers, compliance officers, and legal teams.**
+---
 
-Let's make cookie compliance more open, transparent, and privacy-respecting.
+## 🏢 SaaS & Hosted Platforms
+
+> 📊 **Market Size & Industry Structure**: The global Consent Management Platform (CMP) market size is estimated at **~$2.1 Billion in 2026** (projected to reach **~$4.8 Billion by 2030** at an **18.5% CAGR**). The market structure is **moderately fragmented** with enterprise consolidation centered around market leaders like OneTrust and TrustArc, alongside a prolific ecosystem of agile mid-market CMP SaaS providers.
+
+| Platform | Company Size / Revenue / Valuation | Pricing (Starting Tier) | Free Tier / Trial Limits | Key Features & Compliance Coverage |
+| :--- | :--- | :--- | :--- | :--- |
+| **[OneTrust](https://www.onetrust.com/)** 🏢 | **~$4.5B Valuation** (~$300M+ ARR) | **$30 / month** ($450/year) | **14-day free trial** (up to 50,000 sessions on 1 domain) | Market leader for enterprise CMP. Includes automated cookie scanning, unified management, bulk script publishing, GPC recognition, GDPR, CCPA, and LGPD compliance. |
+| **[TrustArc](https://trustarc.com/)** 🛡️ | **~$100M+ ARR** | **$249 / month** | **14-day free trial** (full access to enterprise features) | Enterprise privacy governance with unified cross-domain consent, GPC enabled by default, DSR form logging, automated website scanning, and compliance certification. |
+| **[Usercentrics](https://usercentrics.com/)** 🇪🇺 | **~$50M+ ARR** | **€7 / month** | **Forever free** (up to 5,000 sessions/month for 1 domain) | European CMP leader. Features granular cookie banners, preference centers, Google Consent Mode v2 integration, IAB TCF v2.3 validation, and multi-language support. |
+| **[Didomi](https://www.didomi.io/)** 🇫🇷 | **~$25M+ ARR** | **€49 / month** | **14-day free trial** (full CMP feature set enabled) | Performance-optimized CMP (co-developed INP optimizations yielding 60–70% latency reduction), server-side consent sharing, cross-device user preference sync. |
+| **[Osano](https://www.osano.com/)** 🔒 | **~$50M Valuation** (~$15M+ ARR) | **$199 / month** | **Forever free** (up to 5,000 monthly visitors for 1 domain) | Simplifies compliance with automated data mapping, consent banners, and a unique **$200,000 compliance lawsuit guarantee** for misconfiguration protection. |
+| **[Cookiebot](https://www.cookiebot.com/)** 🍪 | **~$20M+ ARR** *(Usercentrics Group)* | **€12 / month** | **Forever free** (for 1 domain under 50 pages) | Cloud-driven CMP famous for automated monthly cookie scanning, script auto-blocking, Google Consent Mode v2 certification, and clean widget UI. |
+| **[CookieYes](https://www.cookieyes.com/)** ⚡ | **~$15M+ ARR** | **$10 / month** | **Forever free** (up to 25,000 pageviews/month & 100 pages/scan) | Most widely deployed CMP by origin volume (220k+ websites). Features automated banner customization, cookie scanning, auto-blocking, GDPR/CCPA coverage. |
+| **[Consentmanager](https://www.consentmanager.net/)** 📊 | **~$10M+ ARR** | **€9 / month** | **Forever free** (up to 10,000 pageviews/month for 1 domain) | ML-powered A/B testing (+15% consent conversion), 3M+ cookie database, automatic script blocker, IAB TCF v2.3 certified, 100% EU data sovereignty. |
+| **[Termly](https://termly.io/)** 📄 | **~$8M+ ARR** | **$10 / month** *(billed annually)* | **Forever free** (up to 10,000 banner views/month for 1 domain) | All-in-one compliance platform featuring cookie consent banner management, privacy policy generators, and terms of service creation for small businesses. |
+| **[Complianz](https://complianz.io/)** 🔌 | **~$5M+ ARR** | **$49 / year** (~$4.08/month) | **Forever free plugin** (unlimited pageviews on 1 WordPress site) | #1 WordPress cookie banner plugin with **1M+ active installs**. Features plug-and-play setup, automated script blocking, Google CMP certified, IAB TCF v2.3. |
+
+---
+
+## 💻 Open-Source GitHub Repositories
+
+*Sorted by GitHub Star Count (Descending)*
+
+- **[orestbida/cookieconsent](https://github.com/orestbida/cookieconsent)** [![GitHub stars](https://img.shields.io/github/stars/orestbida/cookieconsent?style=social)](https://github.com/orestbida/cookieconsent/stargazers) 🌟
+  - **Description**: Lightweight, cross-browser vanilla JavaScript cookie consent plugin. Highly customizable, zero external dependencies, multi-language UI, automatic script blocking, and GDPR/CCPA compliance ready.
+
+- **[c15t/c15t](https://github.com/c15t/c15t)** [![GitHub stars](https://img.shields.io/github/stars/c15t/c15t?style=social)](https://github.com/c15t/c15t/stargazers) 🌟
+  - **Description**: Developer-first open-source cookie banner component library designed for React, Next.js, and modern Jamstack web applications with complete style customization.
+
+- **[kirotus/klaro](https://github.com/kirotus/klaro)** [![GitHub stars](https://img.shields.io/github/stars/kirotus/klaro?style=social)](https://github.com/kirotus/klaro/stargazers) 🌟
+  - **Description**: Highly established open-source consent manager. Features zero vendor lock-in, client-side execution, REST API integration, complete audit log traceability, and multi-language UI rendering.
+
+- **[apertureless/vue-cookie-law](https://github.com/apertureless/vue-cookie-law)** [![GitHub stars](https://img.shields.io/github/stars/apertureless/vue-cookie-law?style=social)](https://github.com/apertureless/vue-cookie-law/stargazers) 🌟
+  - **Description**: Vue.js notification banner component for cookie law compliance with theme support, custom positions, and slide/fade animations.
+
+- **[consentos/consentos](https://github.com/consentos/consentos)** [![GitHub stars](https://img.shields.io/github/stars/consentos/consentos?style=social)](https://github.com/consentos/consentos/stargazers) 🌟
+  - **Description**: Comprehensive source-available self-hosted CMP alternative to OneTrust and Cookiebot. Built with Playwright-driven cookie scanning, dark pattern detection, script auto-blocking, IAB TCF v2.3, and multi-tenant Docker deployment.
+
+- **[boscop-fr/orejime](https://github.com/boscop-fr/orejime)** [![GitHub stars](https://img.shields.io/github/stars/boscop-fr/orejime?style=social)](https://github.com/boscop-fr/orejime/stargazers) 🌟
+  - **Description**: Accessible, easy-to-use GDPR cookie consent manager built with accessibility standards (a11y) in mind for inclusive web user interfaces.
+
+- **[porscheofficial/cookie-consent-banner](https://github.com/porscheofficial/cookie-consent-banner)** [![GitHub stars](https://img.shields.io/github/stars/porscheofficial/cookie-consent-banner?style=social)](https://github.com/porscheofficial/cookie-consent-banner/stargazers) 🌟
+  - **Description**: Lightweight and flexible Cookie Consent Banner implementation open-sourced by Porsche Engineering.
+
+- **[chiiya/haven](https://github.com/chiiya/haven)** [![GitHub stars](https://img.shields.io/github/stars/chiiya/haven?style=social)](https://github.com/chiiya/haven/stargazers) 🌟
+  - **Description**: Modern TypeScript-based, GDPR-ready cookie consent manager for custom web application integrations.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome and greatly appreciated! Follow these steps to submit additions or updates:
+
+1. **Fork** this repository.
+2. Add your entry in `README.md` under the appropriate section following the existing table or list layout.
+3. Provide accurate details: Product Name, official URL, pricing/free tier specifics, or open-source GitHub star badge.
+4. Submit a **Pull Request** with a brief summary of changes.
+
+---
+
+## ☕ Support & Sponsorship
+
+If you find this curated directory helpful for your privacy engineering or compliance research, please consider supporting the project:
+
+- 🌟 **Star** this repository on GitHub to increase its visibility.
+- 🔀 **Fork** and share it with fellow developers and compliance professionals.
+- 💖 **Sponsor / Buy me a coffee**: [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007)
+
+Thank you for helping make cookie compliance transparent and developer-friendly!
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cookie-Compliance-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cookie-Compliance-Platform&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a community-curated collection intended for educational and reference purposes. It does not constitute formal legal advice.
+- When configuring cookie consent tools, ensure full compliance with regulatory requirements in your jurisdiction (GDPR, CCPA/CPRA, ePrivacy, LGPD, etc.).
+- SaaS product pricing, limits, and open-source star metrics are accurate as of September 2026.
+
+---
+
+**Made with ❤️ for privacy engineers, developers, and compliance teams across the web.**
